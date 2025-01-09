@@ -1,0 +1,33 @@
+.logo-size {
+    width: 80px;   
+    height: auto;   
+}
+/* Estilo para o botão WhatsApp */
+.whatsapp-btn {
+    display: inline-block;
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px; 
+    border-radius: 50%; /* Botão redondo */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+.whatsapp-btn img {
+    width: 60px; /* Ajusta o tamanho da imagem do WhatsApp */
+    height: 60px; /* Ajusta o tamanho da imagem do WhatsApp */
+    object-fit: contain; /* Mantém a proporção da imagem */
+}
+/* Estilo para o botão Instagram */
+.instagram-btn {
+    display: inline-block;
+    position: fixed; /* Fixa o botão na tela */
+    right: 20px; /* Distância da lateral direita */
+    border-radius: 50%; /* Botão redondo */
+  
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+.instagram-btn img {
+    width: 60px; /* Ajusta o tamanho da imagem do Instagram */
+    height: 60px; /* Ajusta o tamanho da imagem do Instagram */
+    object-fit: contain; /* Mantém a proporção da imagem */
+}
